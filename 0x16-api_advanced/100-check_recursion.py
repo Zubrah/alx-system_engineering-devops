@@ -39,6 +39,6 @@ def count_words(subreddit, word_list):
         print("An error occurred while fetching data from Reddit API.")
 
 # Example usage
-subreddit_name = input("Enter subreddit name: ")
+subreddit_name = input("function is recursive ")
 keywords = input("Enter keywords separated by spaces: ").split()
 count_words(subreddit_name, keywords)
