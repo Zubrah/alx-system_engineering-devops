@@ -38,7 +38,7 @@ def count_words(subreddit, word_list):
     else:
         print("An error occurred while fetching data from Reddit API.")
 
-# # Example usage
-# subreddit_name = input("Enter subreddit name: ")
-# keywords = input("Enter keywords separated by spaces: ").split()
-# count_words(subreddit_name, keywords)
+# Example usage
+subreddit_name = input("Enter subreddit name: ")
+keywords = input("Enter keywords separated by spaces: ").split()
+count_words(subreddit_name, keywords)
